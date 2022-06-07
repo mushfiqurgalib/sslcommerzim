@@ -18,8 +18,8 @@ class OrderTransaction {
         $transaction_id = $post_data['tran_id'];
         $currency = $post_data['currency'];
 
-        $sql = "INSERT INTO orders (name,  phone, amount,  status, transaction_id)
-                                    VALUES ('$name', '$phone','$transaction_amount','Pending', '$transaction_id')";
+        $sql = "INSERT INTO orders (name,employeeid  ,phone, amount,  status, transaction_id,currency)
+                                    VALUES ('$name','$email', '$phone','$transaction_amount','Pending', '$transaction_id','BDT')";
 
         return $sql;
     }

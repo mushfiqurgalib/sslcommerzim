@@ -31,8 +31,8 @@
 <body class="bg-light">
 <div class="container">
     <div class="py-5 text-center">
-        <h2>Hosted Payment - SSLCommerz</h2>
-        <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. We have provided this sample form for understanding Hosted Checkout Payment with SSLCommerz.</p>
+        <h2>Sultan Tea Garden</h2>
+        <p class="lead">A demo payment System</p>
     </div>
 
     <!-- <div class="row">
@@ -70,7 +70,7 @@
             </ul>
         </div> -->
         <div class="col-md-8 order-md-1">
-            <h4 class="mb-3">Billing address</h4>
+            <!-- <h4 class="mb-3">Billing address</h4> -->
             <form action="checkout_hosted.php" method="POST" class="needs-validation">
                 <div class="row">
                     <div class="col-md-12 mb-3">
@@ -99,8 +99,8 @@
 
                 <div class="mb-3">
                     <label for="email">ID <span class="text-muted"></span></label>
-                    <input type="email" name="customer_email" class="form-control" id="email"
-                           placeholder="you@example.com" value="you@example.com" required>
+                    <input type="text" name="customer_email" class="form-control" id="email"
+                           required>
                     <div class="invalid-feedback">
                         Please enter a valid email address for shipping updates.
                     </div>
